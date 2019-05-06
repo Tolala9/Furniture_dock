@@ -1,0 +1,36 @@
+.header 
+	background-color: $bgHeader
+	&__wrapper
+		padding: 20px 60px
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&__logo
+	&__horizontal_line 
+		flex-basis: 18%
+		height: 5px
+		border-bottom: 1px solid $headLine
+	&__contact_block
+		display: flex
+		font-family: $openSansFont
+		font-size: 18px
+		font-weight: 400
+		color: #FFFFFF
+		border: 1px solid $contactBorder
+		border-radius: 4px
+		padding: 9px 50px 9px 30px
+		&:before 
+			font-family: "Font Awesome 5 Free"
+			content: "\f095"
+			display: inline-block
+			height: 30px
+			width: 20px
+			background-color: $bgHeader
+			position: relative
+			left: -40px
+			vertical-align: middle
+			font-weight: 900
+	&__language
+		display: flex
+		flex-direction: column
+
