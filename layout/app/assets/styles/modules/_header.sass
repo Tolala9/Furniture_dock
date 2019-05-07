@@ -19,18 +19,31 @@
 		border: 1px solid $contactBorder
 		border-radius: 4px
 		padding: 9px 50px 9px 30px
-		&:before 
-			font-family: "Font Awesome 5 Free"
-			content: "\f095"
-			display: inline-block
-			height: 30px
-			width: 20px
-			background-color: $bgHeader
-			position: relative
-			left: -40px
-			vertical-align: middle
-			font-weight: 900
+		&:hover
+			&:before 
+				color: $accent
 	&__language
 		display: flex
 		flex-direction: column
+		>.active
+			color: $accent
 
+
+.contact_block__mail, .contact_block__phone
+	&:before 
+		font-family: "Font Awesome 5 Free"
+		display: inline-block
+		height: 30px
+		width: 20px
+		background-color: $bgHeader
+		position: relative
+		left: -40px
+		vertical-align: middle
+		font-weight: 900
+		transition: ease .25s
+.contact_block__mail
+	&:before 
+		content: "\f0e0"
+.contact_block__phone
+	&:before 
+		content: "\f095"
