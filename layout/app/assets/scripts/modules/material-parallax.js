@@ -52,7 +52,7 @@ class Parallax{
           $window.scroll(function () {
             var transfromY = 1 - $window.scrollTop() / 250;
 
-            $('.page-title-img').find('.parallax-content').css({
+            $('.secton_bg_img').find('.parallax-content').css({
               'opacity': 1 - $window.scrollTop() / 250,
               'top': -200 + $window.scrollTop() / 3,
             });

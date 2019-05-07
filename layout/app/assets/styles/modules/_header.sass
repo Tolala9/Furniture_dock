@@ -1,7 +1,7 @@
 .header 
 	background-color: $bgHeader
 	&__wrapper
-		padding: 15px 60px
+		padding: 8px 60px
 		display: flex
 		align-items: center
 		justify-content: space-between
@@ -28,6 +28,11 @@
 		flex-direction: column
 		>.active
 			color: $accent
+			&:hover
+				color: $accent
+		a 
+			&:hover
+				color: $dirtWhiteText
 
 
 .contact_block__mail, .contact_block__phone

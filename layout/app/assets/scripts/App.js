@@ -1,6 +1,5 @@
 // 3rd party packages from NPM
 import $ from 'jquery'; 
-// import $ from 'jquery'; 
 
 // Our modules / classes 
 import CopyrightYear 				from './modules/copyright-year';
