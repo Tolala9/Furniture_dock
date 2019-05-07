@@ -1,25 +1,26 @@
 .header 
 	background-color: $bgHeader
 	&__wrapper
-		padding: 20px 60px
+		padding: 15px 60px
 		display: flex
 		align-items: center
 		justify-content: space-between
 	&__logo
 	&__horizontal_line 
 		flex-basis: 18%
-		height: 5px
+		height: 50%
 		border-bottom: 1px solid $headLine
 	&__contact_block
 		display: flex
 		font-family: $openSansFont
 		font-size: 18px
 		font-weight: 400
-		color: #FFFFFF
+		color: $whiteText
 		border: 1px solid $contactBorder
 		border-radius: 4px
 		padding: 9px 50px 9px 30px
 		&:hover
+			border-color: $white
 			&:before 
 				color: $accent
 	&__language
@@ -40,7 +41,7 @@
 		left: -40px
 		vertical-align: middle
 		font-weight: 900
-		transition: ease .25s
+		transition: $transNormal
 .contact_block__mail
 	&:before 
 		content: "\f0e0"

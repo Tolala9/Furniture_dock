@@ -1,0 +1,53 @@
+.section_main
+	height: 100vh - 15vh
+	display: flex
+
+.decor_rect
+	height: 92%
+	width: 2%
+	align-self: flex-start
+	background-color: $decorRectBg
+
+.img_main
+	display: flex
+	align-items: center
+	background-color: black
+	height: 95%
+	width: 90%
+	background: url("../../assets/img/sections/main_section_bg.jpg") center 
+	background-size: cover
+	box-shadow: -15px 20px 20px 0px rgba(0,0,0,0.20)
+
+.main_card
+	display: flex
+	flex-direction: column
+	flex-basis: 30%
+	background-color: $mainCardBg
+	height: 90%
+	padding: 30px 10px 30px 30px
+	&__desc
+		padding-left: 30px
+
+.social_area
+	display: flex
+	flex-direction: column
+	margin: 5% auto 0
+	justify-content: space-between
+	.social_circle
+		display: flex
+		border: 1px solid $socialBorderBlack
+		width: 53px
+		height: 53px
+		border-radius: 53px
+		justify-content: center
+		align-items: center
+		i
+			font-size: 24px
+			line-height: 1px
+		&:hover
+			border-color: $socialBorderWhite
+			color: $accent
+	.social__vertical_line
+		height: 50%
+		width: 50%
+		border-right: 1px solid $white
