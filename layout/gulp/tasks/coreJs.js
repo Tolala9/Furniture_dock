@@ -11,6 +11,7 @@ gulp.task('coreJs', function() {
 		'./app/assets/libs/Material_Parallax/materialParallax.js',
 		'./app/assets/libs/SmoothScroll/smooth-scroll.js',
 		'./app/assets/libs/Device/device.js',
+		'./app/assets/libs/OwlCarousel/owl.carousel.js',
 		])
 	.pipe(concat('core.min.js'))
 	// .pipe(uglify()) // minimize

@@ -1,5 +1,6 @@
 .section_products
 	display: flex
+	overflow: hidden
 	.heading-2, .section_desc, .prod_atem__title, .prod_atem__desc
 		color: $whiteText
 
@@ -8,20 +9,23 @@
 		flex: 1 1 4%
 		border-right: 1px solid $white
 		margin-right: 90px
+		margin-left: 60px
 	&__title_wrapper
 		display: flex
 		flex: 1 1 96%
 		padding-top: 90px
 		.heading-2
-			flex: 1 
+			// flex: 1 
 		.section_desc
-			flex: 2 
+			// flex: 2 
+			margin-left: 90px
 		h2 + p
 			margin-top: 0
 		
 .section_products__wrapper
 	display: flex
 	flex-direction: column
+	// padding-left: 90px
 	
 .section_products__items_wrapper
 	display: flex
@@ -40,7 +44,7 @@
 
 .nav_buttons
 	display: flex
-	margin-left: 60%
+	margin-left: 27%
 	&--prew, &--next
 		width: 55px
 		height: 50px
@@ -55,3 +59,6 @@
 			background-color: $hoverButton
 			color: $whiteText
 			box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.20)
+svg
+	path
+		fill: $accent
