@@ -184,7 +184,7 @@
       </div>
     </section>
 
-    <section class="secton_bg_img section--white d_flex_col">
+    <section class="secton_bg_img section--white--p-0  d_flex_col ">
       <div class="section_title_wrapper">
         <h2 class="heading-2">Отримайте консультацію</h2>
         <p class="section_desc">Перший крок в створенні aбо удосконаленні вашого неповторного дизайну.</p>
@@ -217,7 +217,25 @@
       </div>
 
       <section class="section_action section--grey">
-        sdf
+        <div class="section_action__form_wrapper">
+          <h2 class="small_title">Надсилайте запит на консультацію </h2> 
+
+          <form class="consultation-form" action="https://formspree.io/anatolii.lukavenko@gmail.com" class="consult-form" target="_blank" method="POST">
+            <input class="name-field" id="name" placeholder="Ваше Ім'я" type="text" name="Name"  data-validation-required-message="Введіть будь ласка ваше ім'я" required>
+
+            <input class="phone-field" id="number" placeholder="Ваш Телефон" type="text" name="E-mail" data-validation-required-message="Введіть будь ласка ваш номер або пошту"  required>
+            <button class="button button-form"> Відправити </button>
+          </form>
+
+
+
+        </div>
+
+        <div class="section_action__tel_wrapper">
+          <h2 class="small_title">або телефонуйте</h2>
+          
+          <a class="tel" href="tel: 380631234567" > <i class="fas fa-phone"></i>+380 63 123 45 67</a >
+        </div>
       </section>
       
     </section>
