@@ -12,19 +12,16 @@ body
 	color: $greyText
 	background-color: #fff
 	margin: 0
-	// overflow: hidden
 
 // **
 // ** Font
 // ** --------------------------------------------------
-// .fas
-// 	font-family: "font-awesome-sol"
 
 
 h1, h2, h3, h4, h5, h6, [class*='heading-']
 	margin-top: 0
 	margin-bottom: 0
-	font-family: "Open Sans", sans-serif
+	font-family: $openSansFont
 	font-weight: 800
 	letter-spacing: 0.05em
 	color: $blackText
@@ -32,8 +29,10 @@ h1, h2, h3, h4, h5, h6, [class*='heading-']
 // **
 // ** H1
 // ** --------------------------------------------------
-// h1, .heading-1
-// 	font-size: 42px
+h1, .heading-1
+	font-size: 42px
+	line-height: 1.5
+	margin-bottom: 30px
 @media (max-width: 1400px)
 	h1, .heading-1
 		font-size: 38px
@@ -165,8 +164,14 @@ h1, h2, h3, h4, h5, h6, [class*='heading-']
 p
 	margin: 0
 	font-family: "Raleway", sans-serif
-	font-size: 16px
+	font-size: 20px
 	color: $greyText
+@media (max-width: 1400px)
+	p
+		margin: 0
+		font-family: "Raleway", sans-serif
+		font-size: 16px
+		color: $greyText
 
 // * + p
 // 	margin-top: 50px

@@ -1,19 +1,19 @@
 .header 
 	background-color: $bgHeader
 	&__wrapper
-		padding: 8px 60px
+		padding: 15px 60px
 		display: flex
 		align-items: center
 		justify-content: space-between
 	&__logo
 	&__horizontal_line 
-		flex-basis: 18%
+		flex-basis: 24%
 		height: 50%
 		border-bottom: 1px solid $headLine
 	&__contact_block
 		display: flex
 		font-family: $openSansFont
-		font-size: 18px
+		font-size: 22px
 		font-weight: 400
 		color: $whiteText
 		border: 1px solid $contactBorder
@@ -26,6 +26,7 @@
 	&__language
 		display: flex
 		flex-direction: column
+		font-size: 16px
 		>.active
 			color: $accent
 			&:hover
@@ -53,3 +54,19 @@
 .contact_block__phone
 	&:before 
 		content: "\f095"
+
+
+@media (max-width: 1400px)
+	.header 
+		background-color: $bgHeader
+		&__wrapper
+			padding: 8px 60px
+		&__horizontal_line 
+			flex-basis: 18%
+		&__contact_block
+			font-size: 18px
+		&__language
+			font-size: 14px
+			
+			
+			

@@ -11,16 +11,16 @@
 	vertical-align: middle
 	user-select: none
 	transition: 300ms all ease-in-out
-	font-size: 18px
+	font-size: 22px
 	font-weight: 700
-	padding: 8px 18px
-	min-height: 50px
+	padding: 10px 20px
+	min-height: 60px
 	border-radius: 4px
 	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.20)
 	&-normal
 		color: $blackText
 		background-color: $accentButton
-		margin-top: 30px
+		margin-top: 60px
 		&:hover
 			color: $whiteText
 			background-color: $hoverButton
@@ -37,8 +37,13 @@ button
 	font-family: "Raleway", sans-serif
 				
 	
-		
-
+@media (max-width: 1400px)		
+	.button
+		font-size: 18px
+		padding: 8px 18px
+		min-height: 50px
+		&-normal
+			margin-top: 30px
 
 	
 
