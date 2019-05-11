@@ -12,19 +12,19 @@
 			&:nth-child(2)
 				padding-left: 30px
 			.adv_vert_img
-				width: 180px
-				height: 244px
-				margin-bottom: 20px
+				width: 220px
+				height: 270px
+				margin-bottom: 25px
 				&--over
 					position: relative
 					top: -40%
 					left: 75%
 			.adv_square_img
-				width: 398px
+				width: 530px
 				height: 295px
 			
 			.comp_info
-				width: 270px
+				width: 370px
 				padding-top: 30px
 		&--hor
 			.adv_hor_img
@@ -42,18 +42,18 @@
 			padding-left: 30px
 			padding-top: 60px
 			&__icon
-				flex: 0 0 63px
-				height: 63px
+				flex: 0 0 73px
+				height: 73px
 				border: 8px solid $accent
 				margin-right: 30px
 				&:before
 					font-family: $openSansFont
-					font-size: 20px
+					font-size: 24px
 					font-weight: 800
 					background-color: #FBFBFB
 					display: inline-block
-					width: 35px
-					height: 35px
+					width: 40px
+					height: 40px
 					position: relative
 					top: -8px
 					right: 8px
@@ -61,7 +61,7 @@
 					vertical-align: middle
 				&:after
 					font-family: "Font Awesome 5 Free"
-					font-size: 34px
+					font-size: 40px
 					font-weight: 900
 					display: inline-block
 					position: relative
@@ -92,3 +92,33 @@
 				margin-left: 20px
 				&__desc
 					margin-bottom: 10px
+
+
+@media (max-width: 1400px)
+	.secton_bg_img
+		.images_wrapper
+			width: 55%
+			&--vert
+				&:nth-child(2)
+					padding-left: 30px
+				.adv_vert_img
+					width: 180px
+					height: 244px
+					margin-bottom: 20px
+				.adv_square_img
+					width: 398px
+					height: 295px
+				.comp_info
+					width: 270px
+		.adv_wrapper 
+			.adv_item
+				&__icon
+					flex: 0 0 63px
+					height: 63px
+					&:before
+						font-size: 20px
+					&:after
+						font-size: 34px
+						
+						
+					
