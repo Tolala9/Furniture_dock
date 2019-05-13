@@ -70,8 +70,24 @@
         
         <a class="header__contact_block contact_block__mail" href="mailto:info@dock_93.com">info@dock_93.com</a>
         <a class="header__contact_block contact_block__phone" href="tel:0631234567">+38(063) 123-45-67</a>
+      
+      <!-- START Mobile contacts -->
+        <a class="header__contact_block contact_block__mail--mobile" href="mailto:info@dock_93.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="header__contact_block contact_block__phone--mobile" href="tel:0631234567">
+          <i class="fas fa-phone"></i>
+        </a>
 
-        <div class="header__language wow fadeInDown" data-wow-delay=".4s">
+        <a class="header__language__icon wow fadeInDown" data-wow-delay=".4s"" href="#">RU</a>
+        <div class="header__language__block header__language--mobile" >
+          <a  href="index.html">UA</a>
+          <a href="en.html">EN</a>
+          <a class="active" href="ru.html">RU</a>
+        </div>
+      <!-- END Mobile contacts -->
+
+        <div class="header__language header__language--normal wow fadeInDown" data-wow-delay=".4s">
           <a  href="index.html">UA</a>
           <a href="en.html">EN</a>
           <a class="active" href="ru.html">RU</a>
@@ -248,7 +264,7 @@
       <section class="section_action section--grey wow fadeInUp" data-wow-delay=".4s" id="free_consult" >
         <div class="section_action__form_wrapper">
           <h2 class="small_title">Присылайте запрос на консультацию</h2> 
-          <form class="consultation-form" action="https://formspree.io/anatolii.lukavenko@gmail.com"  target="_blank" method="POST">
+          <form class="consultation-form" action="https://formspree.io/dock93company@gmail.com"  target="_blank" method="POST">
             <input class="name-field" id="name" placeholder="Ваше имя" type="text" name="Name"  data-validation-required-message="Введите пожалуйста ваше имя" required>
             <input class="phone-field" id="number" placeholder="Ваш Телефон" type="text" name="E-mail" data-validation-required-message="Введите пожалуйста ваш номер или почту"  required>
             <button class="button button-form"> Отправить </button>

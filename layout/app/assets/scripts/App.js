@@ -9,6 +9,7 @@ import Parallax 						from './modules/material-parallax';
 import OwlCarousel 					from './modules/owl-carousel';
 import SvgToInline 					from './modules/svg-to-inline';
 import SmoothScroll 				from './modules/smooth-scroll';
+import LangWindow 					from './modules/lang-window';
 
 // Instantiate a new object using our modules/classes
 var copyrightYear 			= new CopyrightYear();
@@ -18,6 +19,7 @@ var paralax 						= new Parallax();
 var owlCarousel 				= new OwlCarousel(); 
 var svgToInline 				= new SvgToInline(); 
 var smoothScroll 				= new SmoothScroll(); 
+var langWindow 					= new LangWindow(); 
 
 
 

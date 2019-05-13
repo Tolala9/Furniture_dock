@@ -56,6 +56,7 @@
 		content: "\f095"
 
 
+
 @media (max-width: 1400px)
 	.header 
 		background-color: $bgHeader
@@ -77,4 +78,48 @@
 	.contact_block__mail, .contact_block__phone
 		&:before 
 			left: -15px
-		
+
+@media (max-width: 900px)	
+	.header
+		&__wrapper
+			padding: 10px 15px
+		&__contact_block
+			padding: 9px 2% 
+			&:hover
+				i
+					color: $accent
+		.header__language--mobile
+			font-size: 16px
+		.header__language__icon
+			font-size: 16px
+			&:hover
+				color: $dirtWhiteText
+
+		.contact_block__mail, .contact_block__phone
+			display: none
+		.header__language--normal
+			display: none
+		.header__language__block
+			display: none
+			// display: flex
+			flex-direction: column
+			position: absolute
+			top: 82px
+			right: 0
+			padding: 15px
+			background-color: $bgHeader
+			border-radius: 0 0 4px 4px
+			a
+				padding-bottom: 5px
+				transition: $transNormal
+				&:hover
+					color: $accent
+			>.active
+				color: $accent
+
+@media (min-width: 901px)
+	.header
+		.contact_block__mail--mobile, .contact_block__phone--mobile
+			display: none
+		&__language__icon, &__language__block
+			display: none
